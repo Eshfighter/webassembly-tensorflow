@@ -1,0 +1,16 @@
+{
+	"presets": [
+		["@babel/preset-env", {
+			"targets": {
+				"node": "current"
+			}
+		}],
+		"@babel/preset-react",
+		"@babel/preset-flow"
+	],
+	"plugins": [
+		["import", { "libraryName": "antd", "style": true }],
+		["@babel/plugin-proposal-decorators", { "legacy": true }],
+		["@babel/plugin-proposal-class-properties", { "loose": true }],
+	]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>opencv-web</title>
+</head>
+<script src="opencv.js" async></script>
+<script>
+		var Module = {
+			wasmBinaryFile: 'opencv_js.wasm',
+			// preRun: [() => {
+			// 	// Module.FS_createPreloadedFile('/', 'model.json', 'model.json', true, false);
+			// 	// Module.FS_createPreloadedFile('/', 'group1-shard1of1.bin', 'group1-shard1of1.bin', true, false);
+			// 	Module.FS_createPreloadedFile('/', 'tiny_face_detector_model-shard1', 'tiny_face_detector_model-shard1', true, false);
+			// 	Module.FS_createPreloadedFile('/', 'tiny_face_detector_model-weights_manifest.json', 'tiny_face_detector_model-weights_manifest.json', true, false);
+			// }]
+		};
+</script>
+<body style="margin:0;">
+	<div id="app" style="height: 100vh;"></div>
+</body>
+</html>
